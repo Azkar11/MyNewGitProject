@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set global font properties */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark grey text color for readability */
+    background-color: #f4f4f4; /* Light grey background color */
+}
+
+/* Style for h1 */
+h1 {
+    color: #ffffff; /* Slightly darker text for headings */
+}
+
+/* Styling for paragraphs */
+p {
+    margin-bottom: 1em; /* Space below paragraphs */
+}
+
+/* Style for links */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Basic container for layout */
+.container {
+    width: 80%;
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Space inside the container */
+}
+
+/* Style for headers */
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Space inside header */
+    text-align: center; /* Center text */
+}
+
+/* Navigation styling */
+nav {
+    background: #444; /* Slightly lighter background for navigation */
+    padding: 10px; /* Space inside navigation */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center navigation items */
+}
+
+nav li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav a {
+    color: #fff; /* White color for links in navigation */
+}
+
+/* Main content area styling */
+main {
+    padding: 20px; /* Space inside main content */
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px; /* Space below sections */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text */
+    padding: 10px; /* Space inside footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
