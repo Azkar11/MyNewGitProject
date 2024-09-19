@@ -80,3 +80,79 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.footer-info {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+
+.row-container {
+    display: flex;
+    justify-content: space-between; /* Adds space between the two divs */
+    margin: 20px;
+}
+
+.box {
+    flex: 1; /* Makes both boxes take up equal space */
+    margin: 10px; /* Adds some space around each box */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.naturepic {
+    width: 300px;
+}
+
+.mountainpic {
+    width: 300px;
+}
+
+@media (min-width: 600px) {
+
+ p {
+    font-size: 1rem;
+ }
+}
+
+@media (max-width: 768px) 
+{
+
+
+    .row-container {
+        flex-direction: column; /* Stacks the boxes vertically */
+    }
+
+    .box {
+        margin: 10px 0; /* Adds vertical margin between the stacked boxes */
+    }
+}
+
+@media (max-width: 750px) {
+
+    .footer-info {
+        
+        flex-direction: row;
+        padding: 2px;
+    }
+}
+
+aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-left: 10px;
+    border-left: 3px solid #ccc;
+}
+.greycat {
+    width: 300px;
+}
+
+.greycatlaying {
+    width: 300px;
+}
+
+.greycattelephone {
+    width: 300px;
+}

@@ -3,47 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-    <!-- Navigation Bar -->
+<body>
     <nav>
         <ul class="navbar">
             <li><a href="home.html">Home</a></li>   
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="grid.html">Grid</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content -->
     <main>
-        <section id="home">
-            <h1>Välkommen!</h1>
-            <p>Välkommen till min webbsida!</p>
-        </section>
+        <section class="row-container">
+            <div class="box">
+                <h1>Welcome to the Home Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eaque reprehenderit repudiandae unde nemo odit, delectus molestias? Saepe eaque reprehenderit incidunt laboriosam cupiditate veritatis voluptatum optio unde, aliquid ratione quidem?</p>
+                <img class="mountainpic" src="mountain.jpg" alt="mountain picture">
+            </div>
 
-        <section id="about">
-            <h1>Om oss</h1>
-            <p>Lär dig mer om oss.</p>
-        </section>
+            <div class="box">
+                <h1>Explore</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique voluptatibus sapiente odio blanditiis quod aliquam recusandae beatae dolor omnis, officiis tempore nisi illum ipsa, cumque eligendi, excepturi quidem odit fugiat?                </p>
+                <img class="naturepic" src="nature.jpg" alt="nature picture">
 
-        <section id="services">
-            <h1>Tjänst</h1>
-            <p>Utforska våra tjänster</p>
+            </div>
+
+            
+      
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      
-            <h2>Kontakta oss</h2>
-            <p>Email: info@gmail.com</p>
-            <p>Mobil: +123 12031923</p>
-            <p>Adress: Chas 129319 Stockholm</p>
-      
-    </footer>
+    <aside>
+        <h2>Related Information</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, enim. Optio quidem quasi, numquam rem fuga odio nisi dolor quis vero praesentium dolores cum quod explicabo error iusto quisquam fugiat earum adipisci ducimus fugit! Ea id aperiam ab provident labore nihil eligendi itaque neque. Animi, itaque debitis beatae eos rerum iure sint repellendus ipsa excepturi, vero nesciunt praesentium repellat maxime tempora commodi laboriosam quaerat impedit corporis labore? Qui sit quo eius sunt voluptates recusandae perspiciatis odit! Ipsam vitae excepturi repudiandae quia unde reprehenderit harum, numquam, fugit expedita mollitia est earum. Dignissimos enim accusamus soluta. Aperiam, fuga voluptas. Corrupti id necessitatibus harum a autem repellendus, dicta modi explicabo quidem doloribus consectetur recusandae adipisci, ipsam eos nihil nisi aperiam. Tempore reiciendis itaque sed ipsa! Porro ipsum repudiandae voluptatibus! Architecto porro cumque voluptatem minus magni iste beatae eius voluptates labore quo, aspernatur earum!</p>
 
+    </aside>
+
+
+    <footer>
+        <section class="footer-info">
+            <p>Contact Us</p>
+            <p>Email: info@gmail.com</p>
+            <p>Phone: +123 12031923</p>
+            <p>Address: Chas 129319 Stockholm</p>
+        </section>
+    </footer>
 </body>
 </html>
